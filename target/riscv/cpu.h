@@ -514,6 +514,9 @@ struct CPUArchState {
     target_ulong rnmip;
     uint64_t rnmi_irqvec;
     uint64_t rnmi_excpvec;
+
+    /* CX extension */
+    target_ulong cxsel;
 };
 
 /*
